@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 
+// TODO: Delete this route
 app.get("/", (req, res) => {
     res.send("Hello, Express with TypeScript!");
 });
